@@ -1,0 +1,694 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+
+#home{
+    background-image: url("../Images/Home/background-home-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 2rem;
+}
+
+h3, h1, p, h5{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    padding-top: 2rem;  
+    
+    margin-left: 1rem; 
+    
+}
+
+.navs{
+    overflow: hidden;
+    margin-left: 40rem;
+    display: inline-block;
+    
+}
+
+.navs h5{
+    display: inline-block;
+    padding: 0 1rem 0 1rem;
+    
+}
+
+.navs-list{
+    display: inline-block;
+}
+
+.navs-link{
+    border: none;
+    background: none;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.navs-link-active{
+    border-bottom: solid 3px white;
+}
+
+.navs-link:hover{
+    border-bottom: solid 3px white;
+}
+
+
+.nav-log-svg{
+    display: inline-block ;
+}
+
+.home-svg{
+    margin-bottom: 1.5rem;
+}
+
+.hamburger {
+   visibility: hidden;
+}
+
+.bottom-content{
+    padding: 10rem 40rem 0rem 7rem;
+    display: inline-block;
+
+}
+
+.bottom-content h3{
+    font-weight: 300;
+    font-size: 2rem;
+    width: 85%;
+    display: inline-block;
+    
+}
+
+.bottom-content h1{
+    font-weight: 100;
+    font-size: 7rem;
+    width: 100%;
+    line-height: 0;
+    display: inline-block;
+}
+
+.bottom-content p{
+    font-weight: 400;
+    color: #D8D8D8;
+    width: 70%;
+    display: inline-block;
+    
+}
+
+.btn{
+    display: inline-block;
+    margin-left: 60rem;
+    margin-top: -13rem;
+    
+}
+
+.btn-explore {
+	background-color:#ffffff;
+	border-radius:100%;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Courier New;
+	font-size:3rem;
+	font-weight:bold;
+	padding: 100px 30px;
+	text-decoration:none;
+    
+}
+.btn-explore:hover {
+	background-color:#D8D8D8;
+    color: black;
+    
+}
+.btn-explore:active {
+	position:relative;
+	top:1px;
+    color: white;
+}
+
+/* destination */
+
+#destination{
+    background-image: url("../Images/destination/background-destination-desktop.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+
+.pick-container{
+    margin-top: 10rem;
+    margin-left: 10rem;
+}
+
+.pick-content{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.grid-container{
+    display: grid;
+    column-gap: 3px;
+    color: white;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    position: relative;
+    
+    
+}
+
+.grid-container-destination{
+    display: grid;
+    column-gap: 3px;
+    color: white;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+.column{
+    padding: 50px;
+}
+
+.tabs{
+    display: inline-block;
+}
+
+.tabs-item{
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.tabs-item-active{
+    border-bottom: solid 3px white;
+}
+
+.tabs-item:hover{
+    border-bottom: solid 3px white;
+}
+
+.planet{
+    width: 54%;
+    text-align: left;
+    padding-left: 12rem;
+}
+
+.planet-heading{
+    font-size: 3rem;
+}
+
+.planet-details{
+    padding-bottom: 2rem;
+}
+
+.planet-bottom{
+    display: inline-block;
+    padding-right: 3.6rem;
+}
+
+
+.container{
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;   
+}
+#moon{
+    visibility: visible;
+}
+
+.moon-img{
+    visibility: visible;
+}
+
+
+/* crew */
+
+#crew{
+    background-image: url("../Images/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+   
+}
+
+.grid-container-crew{
+    display: grid;
+    color: white;
+    column-gap: 3px;
+    grid-template-columns: auto auto;
+    text-align: center;
+}
+
+
+.crew{
+    text-align: left;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+.crew h1{
+    font-size: 3rem;
+}
+
+.img-1, .img-2, .img-3, .img-4{
+    width: 40%;
+    padding-left: 14rem;
+}
+
+.crew-img{
+    width: 132%;
+}
+
+.commander, .img-1{
+    visibility: visible;
+}
+
+.crew-btn{
+    margin-left: 10rem;
+    display: inline-block;
+    padding-top: 33rem;
+    padding-bottom: 2rem;
+}
+
+.crew-buttons{
+    margin-right: 1rem;
+    border-radius: 10rem;
+    width: 1rem;
+    height: 1rem;
+    background-color: grey;
+    border: solid;  
+}
+
+.crew-buttons:hover{
+    background-color: whitesmoke;
+}
+
+.crew-buttons-active{
+    background-color: whitesmoke;
+}
+
+
+
+
+/* technology css */
+
+#technology{
+    background-image: url("../Images/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.grid-container-technology{
+    display: grid;
+    color: white;
+    column-gap: 3px;
+    grid-template-columns: auto auto auto;
+
+}
+
+.launch-vehicle, .launch-vehicle-img{
+    visibility: visible;
+}
+
+.tech-col-2{
+    padding-left: 0rem;
+    padding-right: 25rem;
+}
+
+.tech-details{
+    margin-top: 7rem;
+    width: 195%;
+}
+
+.tech-details h1{
+    font-size: 3rem;
+}
+
+.tech-buttons{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    position: relative;
+    left: 6rem;
+}
+
+.tech-btn-block{
+    margin-bottom: 4rem;
+}
+
+.tech-btn{
+    
+    border: solid 2px whitesmoke;
+    border-radius: 4rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+    background-color: transparent;
+    position: relative;
+    z-index: 0;
+    color: white;
+    padding: 0.4rem;
+    
+}
+
+.tech-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.tech-btn-active{
+    background-color: white;
+    color: black;
+}
+
+.tech-img{
+    width: 190%;
+    margin-left: -10rem;
+    margin-top: 4rem;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+#home{
+    margin: 0;
+    padding: 0;
+    background-image: url("../Images/Home/background-home-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+}
+
+.bottom-content{
+    padding-right: 30%;
+    padding-top: 18rem;
+    text-align: center;
+    padding-left: 36%;
+    width: 310%;
+    font-size: 172%;
+}
+
+.bottom-content h3 {   
+    font-size: 3rem;  
+}
+
+.bottom-content h1 {
+    font-size: 9rem;
+}
+
+.bottom-content p {
+    font-size: 2.5rem;
+}
+
+.btn{
+    margin-left: 0;
+    top: 0;
+    padding-left: 99%;
+    padding-right: 80%;
+    padding-bottom: 5rem;
+    padding-top: 20rem;
+}
+
+
+.btn-explore {
+    padding: 300px 170px;
+    font-size: 5rem;
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: solid 1px;
+    background: transparent;
+    cursor: pointer;
+    font-size: 3rem;
+    visibility: visible;
+  }
+
+  .closeIcon {
+    display: none;
+  }
+
+  .navs{
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  .navs-list{
+    display: block
+}
+
+/* destination CSS */
+
+#destination{
+    margin: 0;
+    padding: 0;
+    background-image: url('/Images/destination/background-destination-mobile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+   
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+  
+}
+
+
+
+.grid-container-destination{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    font-size: 2rem;
+}
+
+.column{
+    padding: 20px;
+}
+
+.pick-container{
+    font-size: 3rem;
+    width: 260%;
+    text-align: center;
+    margin: 0;
+}
+
+.column{
+    width: 250%;
+    padding-bottom: 7rem;
+}
+
+.tabs-item{
+    font-size: 2rem;
+}
+
+.planet{
+    padding-left: 16%;
+    padding-top: 40rem;
+    text-align: center;
+    width: 65%;
+}
+.planet-bottom{
+    padding-left: 5%;
+}
+
+#moon{
+    visibility: visible;
+}
+
+.moon-img{
+    visibility: visible;
+}
+
+/* crew CSS */
+
+#crew{
+    background-image: url("../Images/crew/background-crew-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container-crew{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    font-size: 2rem;
+}
+
+.crew{
+    text-align: center;
+    width: 170%;
+    padding-top: 30%;
+    padding-bottom: 2rem;
+    margin-top: 39rem;
+}
+
+.img-1{
+    padding-left: 75%;
+}
+
+.crew-img{
+    width: auto
+}
+
+.crew-btn{
+    padding-top: 80rem;
+    padding-bottom: 4rem;
+    width: 150%;
+    padding-left: 20%;
+    padding-right: 35%;
+    text-align: center;
+}
+
+.crew-buttons{
+    margin-right: 5rem;
+    border-radius: 10rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: grey;
+    border: solid;
+ 
+}
+
+.crew-buttons-active{
+    background-color: whitesmoke;
+}
+
+.commander, .img-1{
+    visibility: visible;
+}
+
+
+/* technology CSS */
+
+#technology{
+    background-image: url("../Images/technology/background-technology-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container-technology{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.tech-buttons{
+    
+    width: 281%;
+    margin-top: 5rem;
+    margin-left: 0;
+    position: relative;
+    left: 0;
+}
+
+.tech-btn-block{
+    display: inline-block;
+    padding-left: 21%;
+}
+
+
+.tech-btn{
+    border: solid 2px whitesmoke;
+    border-radius: 4rem;
+    width: 5rem;
+    height: 5rem;
+    font-size: 160%;
+    background-color: transparent;
+    position: relative;
+    z-index: 0;
+    color: white;
+    padding: 0.4rem;
+}
+
+.tech-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.tech-btn-active{
+    background-color: white;
+    color: black;
+}
+
+.tech-img{
+    width: 190%;
+    margin-top: -14rem;
+    padding-left: 53%;
+    padding-right: 47%;
+    margin-left: 0;
+}
+
+.tech-details{
+    margin-top: 0;
+    width: 195%;
+    padding-top: 190%;
+    padding-bottom: 5rem;
+    text-align: center;
+    padding-left: 48%;
+    font-size: 190%;
+}
+
+.launch-vehicle-img, .launch-vehicle{
+    visibility: visible;
+}
+
+
+
+
+
+}
+
+/* font-family: 'Roboto', sans-serif; */

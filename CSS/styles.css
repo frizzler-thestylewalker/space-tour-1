@@ -479,7 +479,7 @@ h3, h1, p, h5{
 #destination{
     margin: 0;
     padding: 0;
-    background-image: url('/Images/destination/background-destination-mobile.jpg');
+    /* background-image: url('/Images/destination/background-destination-mobile.jpg'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

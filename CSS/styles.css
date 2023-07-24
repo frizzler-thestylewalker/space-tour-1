@@ -137,6 +137,7 @@ h3, h1, p, h5{
 #destination{
     background-image: url("../Images/destination/background-destination-desktop.jpg");
     background-repeat: no-repeat;
+    background-size: cover;	
     position: relative;
    
 }
